@@ -16,14 +16,19 @@ The UI framework uses:
 API Automation:
 -RestAssured 5.5.0
 
-How to run the tests:
+How to run the tests
+
 To execute both UI and API automated tests, run the following command in your terminal:
 > mvn test
 
 You should see output similar to this:
+
 ...
+
 -------------------------------------------------------
+
  T E S T S
+ 
 -------------------------------------------------------
 
 ...
@@ -33,10 +38,15 @@ Results :
 Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] ------------------------------------------------------------------------
+
 [INFO] BUILD SUCCESS
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO] Total time:  01:19 min
+
 [INFO] Finished at: 2025-12-09T23:42:20+02:00
+
 [INFO] ------------------------------------------------------------------------
 
 
@@ -44,9 +54,13 @@ To execute only one of the tests, run the following command in your terminal:
 > mvn -Dtest=test_class_name test
 
 You should see output similar to this:
+
 ...
+
 -------------------------------------------------------
+
  T E S T S
+ 
 -------------------------------------------------------
 
 ...
@@ -56,8 +70,13 @@ Results :
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] ------------------------------------------------------------------------
+
 [INFO] BUILD SUCCESS
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO] Total time:  21.212 s
+
 [INFO] Finished at: 2025-12-10T00:04:59+02:00
+
 [INFO] ------------------------------------------------------------------------
