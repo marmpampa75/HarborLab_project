@@ -1,22 +1,21 @@
 This project contains 5 UI tests and 1 API test for https://thinking-tester-contact-list.herokuapp.com/.
 The test suite covers both happy and unhappy paths for user login, account creation, adding and deleting a contact.
 
-Framework Description
+**Framework Description**
 
-UI Automation:
--Java 11
--Selenium 4.13.0
--WebDriverManager 5.9.2
--JUnit 4.13.2
+This automation framework is built using the following stack:
 
-The UI framework uses:
--Page Object Model (POM)
--Base Test class for setup/teardown
+- **Java 11** – main programming language
+- **JUnit 4** – test runner and assertion library
+- **Selenium WebDriver 4.13.0** – UI test automation
+- **WebDriverManager 5.9.2** – automatic driver management
+- **REST Assured 5.5.0** – API testing
+- **Maven** – build, dependency management, and test execution
+- **Page Object Model (POM)** – design pattern for maintainable UI tests
+- Base Test class for setup/teardown
 
-API Automation:
--RestAssured 5.5.0
 
-How to run the tests
+**How to run the tests**
 
 To execute both UI and API automated tests, run the following command in your terminal:
 > mvn test
