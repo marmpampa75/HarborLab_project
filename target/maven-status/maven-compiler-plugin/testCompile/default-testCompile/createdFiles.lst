@@ -1,0 +1,5 @@
+tests\BaseTest.class
+tests\AddContactTest.class
+tests\SignUpAPI_Test.class
+tests\LoginTest.class
+tests\SignUpTest.class

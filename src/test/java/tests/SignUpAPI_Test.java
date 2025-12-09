@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import static io.restassured.RestAssured.given;
 
-public class SignUpTest_API{
+public class SignUpAPI_Test {
 
     @Test
     public void LoginSuccessfulWhenCreateNewAccount_API() {
