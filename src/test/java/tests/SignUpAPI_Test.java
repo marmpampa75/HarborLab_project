@@ -6,7 +6,6 @@ import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ThreadLocalRandom;
 
 import static io.restassured.RestAssured.given;
 
@@ -17,11 +16,11 @@ public class SignUpAPI_Test {
 
         RestAssured.baseURI = "https://thinking-tester-contact-list.herokuapp.com";
 
-        String random6 = String.valueOf(ThreadLocalRandom.current().nextInt(100000, 1000000));
-        String firstName = "user-" + random6;
-        String lastName = "user-" + random6;
-        String email = "user-" + random6 + "@gmail.com";
-        String password = random6 + "!";
+        String random = String.valueOf(System.currentTimeMillis());;
+        String firstName = "user-" + random;
+        String lastName = "user-" + random;
+        String email = "user-" + random + "@gmail.com";
+        String password = random + "!";
         System.out.println(firstName + "--" + lastName + "--" + email + "--" + password);
 
         Map<String, Object> body = new HashMap<>();

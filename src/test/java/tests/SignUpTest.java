@@ -5,8 +5,6 @@ import page_objects.ContactListPage;
 import page_objects.LoginPage;
 import page_objects.SignUpPage;
 
-import java.util.concurrent.ThreadLocalRandom;
-
 import static enums.Enums.ButtonType;
 import static enums.Enums.HeaderType;
 
@@ -24,11 +22,11 @@ public class SignUpTest extends BaseTest{
 
         SignUpPage signup = new SignUpPage(driver);
 
-        String random6 = String.valueOf(ThreadLocalRandom.current().nextInt(100000, 1000000));
-        String firstName = "user-" + random6;
-        String lastName = "user-" + random6;
-        String email = "user-" + random6 + "@gmail.com";
-        String password = random6 + "!";
+        String random = String.valueOf(System.currentTimeMillis());
+        String firstName = "user-" + random;
+        String lastName = "user-" + random;
+        String email = "user-" + random + "@gmail.com";
+        String password = random + "!";
         System.out.println(firstName + "--" + lastName + "--" + email + "--" + password);
 
         signup.setCredentials(firstName, lastName, email, password);

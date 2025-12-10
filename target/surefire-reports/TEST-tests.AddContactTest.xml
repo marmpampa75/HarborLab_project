@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="tests.AddContactTest" time="44.638" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="tests.AddContactTest" time="47.883" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="IBM Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -84,7 +84,7 @@ JCL      - b7b5b42ea6 based on jdk-11.0.15+10"/>
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.vendor.version" value="11.0.15.0"/>
   </properties>
-  <testcase classname="tests.AddContactTest" name="AddContactErrorIsDisplayedWhenFieldLastnameIsEmpty" time="13.336"/>
-  <testcase classname="tests.AddContactTest" name="ContactsDisplayedInLoginAfterLogout" time="19.042"/>
-  <testcase classname="tests.AddContactTest" name="NewContactIsDisplayedWhenAdded" time="12.26"/>
+  <testcase classname="tests.AddContactTest" name="AddContactErrorIsDisplayedWhenFieldLastnameIsEmpty" time="14.098"/>
+  <testcase classname="tests.AddContactTest" name="ContactsDisplayedInLoginAfterLogout" time="18.864"/>
+  <testcase classname="tests.AddContactTest" name="NewContactIsDisplayedWhenAdded" time="14.921"/>
 </testsuite>
